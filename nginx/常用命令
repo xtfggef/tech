@@ -1,0 +1,9 @@
+检查配置：
+/usr/sbin/nginx -t
+
+重启：
+/usr/sbin/nginx -s reload
+
+关闭：
+ps -ef | grep 'nginx'
+kill -QUIT xxx

@@ -1,0 +1,20 @@
+Fn+cmd+f12 显示类的所有方法
+cmd+1 project视图
+cmd+2 打开terminal
+Fn+cmd+shift+f9 热部署
+cmd+m 新建*
+cmd+, menu
+fn+shift+f6 重命名
+cmd+y 删除一行
+cmd+d 复制一行
+fn+shift+f10 run
+fn+shift+f9 debug
+
+⌘ + Shift + A : 软件功能搜索
+Fn + alt + F7 find usages (对象使用)
+
+control + Enter 创建一切:新建文件,覆盖方法,get/set
+
+使用Alt + Shift + C快速查看您最近对项目的更改
+
+cmd + shift + R 清楚缓存

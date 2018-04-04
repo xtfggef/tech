@@ -1,0 +1,5 @@
+压缩当前文件夹下所有文件为a.zip
+zip -r ./a.zip ./*
+
+解压缩：
+unzip a.zip

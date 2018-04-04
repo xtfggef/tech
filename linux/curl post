@@ -1,0 +1,2 @@
+post请求：
+curl -d "aaa=123&bbb=123&operate=ccc&ddd=xxx&eee=bbb&begin_time=2016-01-01 00:00:00&end_time=2018-03-13 23:59:59" "http://localhost:8088/xxxxxx"

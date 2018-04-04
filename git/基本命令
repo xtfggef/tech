@@ -1,0 +1,8 @@
+取消add：
+git reset HEAD boat.iml
+
+删除.idea缓存：
+git rm --cached .idea/*
+
+取消本地修改：
+git checkout -- project.config.json

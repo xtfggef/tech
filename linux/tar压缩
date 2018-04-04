@@ -1,0 +1,5 @@
+压缩：
+tar -cvf deploy.tar deploy/*
+
+解压：
+tar -xvf deploy.tar

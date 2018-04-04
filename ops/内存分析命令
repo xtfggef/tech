@@ -1,0 +1,6 @@
+展示Java进程：jps -v
+显示JVM参数：jinfo -flags pid
+显示JVM的各个内存区使用情况：jstat -gc PID
+查看class的加载情况：jstat -class PID
+dump堆：jmap -dump:format=b,file=<dumpfile.hprof> <pid>  
+或者：jmap -dump:file=/home/admin/dump 7284

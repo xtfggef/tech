@@ -1,0 +1,5 @@
+查看端口占用情况：lsof -i:port
+强行结束进程：kill -9 pid
+
+查看Java进程：
+ps -ef | grep java

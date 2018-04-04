@@ -1,0 +1,2 @@
+sh 应用名/start.sh 应用名 stop 8088
+sh 应用名/start.sh 应用名 start 8088

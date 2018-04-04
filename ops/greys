@@ -1,0 +1,17 @@
+curl 'http://192.168.48.4/soft//greys-1.7.6.4-bin.zip' -O
+
+解压zip文件后，执行以下命令
+
+cd greys
+sh ./install-local.sh
+即完成本地安装。
+
+./greys
+
+ga>trace 全路径类名 方法名
+
+
+
+
+
+https://yq.aliyun.com/articles/2390

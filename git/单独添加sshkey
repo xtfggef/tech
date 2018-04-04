@@ -1,0 +1,5 @@
+HOST code.aliyun.com
+User git
+Hostname code.aliyun.com
+PreferredAuthentications publickey
+IdentityFile /Users/zhangerqing/.ssh/id_rsa_xtfggef@163.com

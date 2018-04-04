@@ -1,0 +1,6 @@
+scp apache-maven-3.2.2-bin.zip admin@IP:/home/admin
+
+带端口：
+scp -P 602 Downloads/jdk-8u151-linux-x64.tar.gz xt@IP:/home/xt/soft
+
+scp -P 602 xt@IP:/usr/local/jdk.tar.gz .

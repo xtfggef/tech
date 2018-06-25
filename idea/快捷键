@@ -9,12 +9,9 @@ cmd+y 删除一行
 cmd+d 复制一行
 fn+shift+f10 run
 fn+shift+f9 debug
-
 ⌘ + Shift + A : 软件功能搜索
 Fn + alt + F7 find usages (对象使用)
-
 control + Enter 创建一切:新建文件,覆盖方法,get/set
-
 使用Alt + Shift + C快速查看您最近对项目的更改
-
 cmd + shift + R 清楚缓存
+Alt + CMD + [] 切换项目

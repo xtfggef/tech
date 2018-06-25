@@ -1,0 +1,24 @@
+public static void main(String[] args) {
+        List<Integer> list = Lists.newArrayList();
+        int PART_SIZE = 2;
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        list.add(5);
+
+        int size = list.size();
+        int part = size % PART_SIZE == 0 ? size / PART_SIZE : size / PART_SIZE + 1;
+        for (int i = 0; i < part; i++) {
+            if (size <= PART_SIZE) {
+                List<Integer> tmp = list;
+                System.out.println(tmp);
+            } else if (i == part -1) {
+                List<Integer> tmp = list.subList(i * PART_SIZE, size);
+                System.out.println(tmp);
+            } else {
+                List<Integer> tmp = list.subList(i * PART_SIZE, (i + 1) * PART_SIZE);
+                System.out.println(tmp);
+            }
+        }
+    }

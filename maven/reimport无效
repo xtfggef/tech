@@ -1,0 +1,2 @@
+1. 右侧点击maven菜单"lifecycle"->"install"并查看日志
+2. 检查maven配置，确保settings配置文件用的是公司私有仓库的地址

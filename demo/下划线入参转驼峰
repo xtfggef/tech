@@ -1,0 +1,21 @@
+public ResultVO save(@RequestParam Map<String, Object> params) {
+        SignInfo signParam = new ObjectMapper().convertValue(params, SignInfo.class);
+
+
+        /**
+     * 1身份证正面；2身份证反面；3银行卡
+     */
+    @JsonProperty("type")
+    private Integer type;
+
+    /**
+     * 中文姓名，type为1时必填
+     */
+    @JsonProperty("name")
+    private String name;
+	
+	/**
+     * 身份证号码，type为1时必填
+     */
+    @JsonProperty("id_number")
+    private String idNumber;

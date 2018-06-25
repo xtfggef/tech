@@ -1,5 +1,5 @@
-HOST code.aliyun.com
+HOST code.xxx.com
 User git
-Hostname code.aliyun.com
+Hostname code.xxx.com
 PreferredAuthentications publickey
-IdentityFile /Users/zhangerqing/.ssh/id_rsa_xtfggef@163.com
+IdentityFile /Users/xxx/.ssh/id_rsa_aaaaa@xx.com

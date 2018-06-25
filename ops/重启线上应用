@@ -1,2 +1,2 @@
 使用应用目录下的start.sh，stop.sh脚本，带3个参数：应用名，start/stop，端口
-举例：sh ./start.sh eden start 8088
+举例：sh ./start.sh xxx start 8088

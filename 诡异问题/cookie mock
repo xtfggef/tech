@@ -1,0 +1,5 @@
+HttpServletRequest request = Mockito.mock(HttpServletRequest.class);
+        CookieUtils.getCookie(request, "");
+        Cookie cookie = new Cookie("n", "b");
+        Cookie[] cookies = new Cookie[] {cookie};
+        Mockito.when(request.getCookies()).thenReturn(cookies);

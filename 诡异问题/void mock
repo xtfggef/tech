@@ -1,0 +1,2 @@
+Mockito.doThrow(IOException.class).when(response).flushBuffer();
+CookieUtils.setCookie(response, "test", "test", 1);

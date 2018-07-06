@@ -1,0 +1,3 @@
+Required Integer parameter 'type' is not present form-data 
+
+检查Header里有没有设置Content-Type
